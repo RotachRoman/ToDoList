@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		CB18E7D52563DD5B00582821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18E7D42563DD5B00582821 /* AppDelegate.swift */; };
 		CB18E7D72563DD5B00582821 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18E7D62563DD5B00582821 /* SceneDelegate.swift */; };
-		CB18E7D92563DD5B00582821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18E7D82563DD5B00582821 /* ViewController.swift */; };
 		CB18E7DC2563DD5B00582821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB18E7DA2563DD5B00582821 /* Main.storyboard */; };
 		CB18E7DF2563DD5C00582821 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB18E7DD2563DD5B00582821 /* ToDoList.xcdatamodeld */; };
 		CB18E7E12563DD5C00582821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB18E7E02563DD5C00582821 /* Assets.xcassets */; };
 		CB18E7E42563DD5C00582821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB18E7E22563DD5C00582821 /* LaunchScreen.storyboard */; };
+		CB18E7ED2563DE1800582821 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB18E7EC2563DE1800582821 /* ToDoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB18E7D12563DD5B00582821 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB18E7D42563DD5B00582821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB18E7D62563DD5B00582821 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB18E7D82563DD5B00582821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB18E7DB2563DD5B00582821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB18E7DE2563DD5B00582821 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		CB18E7E02563DD5C00582821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB18E7E32563DD5C00582821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB18E7E52563DD5D00582821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB18E7EC2563DE1800582821 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				CB18E7D42563DD5B00582821 /* AppDelegate.swift */,
 				CB18E7D62563DD5B00582821 /* SceneDelegate.swift */,
-				CB18E7D82563DD5B00582821 /* ViewController.swift */,
+				CB18E7EC2563DE1800582821 /* ToDoListTableViewController.swift */,
 				CB18E7DA2563DD5B00582821 /* Main.storyboard */,
 				CB18E7E02563DD5C00582821 /* Assets.xcassets */,
 				CB18E7E22563DD5C00582821 /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB18E7D92563DD5B00582821 /* ViewController.swift in Sources */,
+				CB18E7ED2563DE1800582821 /* ToDoListTableViewController.swift in Sources */,
 				CB18E7D52563DD5B00582821 /* AppDelegate.swift in Sources */,
 				CB18E7D72563DD5B00582821 /* SceneDelegate.swift in Sources */,
 				CB18E7DF2563DD5C00582821 /* ToDoList.xcdatamodeld in Sources */,
